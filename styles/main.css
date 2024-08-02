@@ -1,3 +1,9 @@
+/* General Font Style */
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url(../fonts/JetBrainsMono-Regular.woff2) format("woff2");
+}
+
 /* reset box-sizing to border-box and inherit it */
 html {
     box-sizing: border-box;
@@ -11,8 +17,8 @@ html {
 
 /* General Style */
 html {
-    font-size: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-family: "JetBrains Mono";
     color: #000000;
     background-color: #ffffff;
 }
@@ -44,19 +50,4 @@ li {
 body {
     margin: 0 auto;
     padding: 0;
-}
-
-code {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 17.6px;
-    color: #0f0f0f;
-    font-weight: lighter;
-    text-shadow: 1px 1px 2px #f0f0f0, 0 0 1em blue, 0 0 0.2em blue;
-}
-
-/* MathType from Scratch */
-.mfs {
-    font-family: Cambria Math, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: oblique 17.4deg;
-    text-shadow: 1px 1px 2px #f0f0f0, 0 0 1em #666666, 0 0 0.2em #999999;
 }
