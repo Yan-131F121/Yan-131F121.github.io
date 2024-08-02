@@ -54,37 +54,6 @@ code {
     text-shadow: 1px 1px 2px #f0f0f0, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-/* Menu Style */
-.header-menu {
-    display: flex;
-}
-
-.header-menu a {
-    flex: 1;
-    text-decoration: none;
-    outline-color: transparent;
-    text-align: center;
-    line-height: 2.2;
-    color: #f0f0f0;
-    font-size: 14px;
-}
-
-.header-menu a:link,
-.header-menu a:visited,
-.header-menu a:focus {
-    background: #0f0f0f;
-    color: #f0f0f0;
-}
-
-.header-menu a:hover {
-    background: #999999;
-}
-
-.header-menu a:active {
-    background: #666666;
-    color: #f0f0f0;
-}
-
 /* MathType from Scratch */
 .mfs {
     font-family: Cambria Math, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
