@@ -17,37 +17,9 @@ html {
 
 /* General Style */
 html {
-    font-size: 13px;
     font-family: "JetBrains Mono";
     color: #000000;
     background-color: #ffffff;
-}
-
-h1 {
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-}
-
-h2 {
-    font-size: 30px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-}
-
-h3 {
-    font-size: 20px;
-    margin: 0;
-    padding: 20px 0 10px 20px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.2;
-    margin: 0;
-    padding: 0 40px;
 }
 
 body {
@@ -55,6 +27,21 @@ body {
     padding: 0;
 }
 
-.poetry-paragraph {
-    padding: 10px 0;
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 16px 0 32px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 33px;
+    margin: 0;
+    padding: 0 0 8px 24px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    padding: 16px 24px 32px 24px;
 }
